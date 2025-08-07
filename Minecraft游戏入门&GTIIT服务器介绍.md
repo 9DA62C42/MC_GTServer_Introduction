@@ -28,9 +28,9 @@ Enjoy your gaming time!
   - [互联网学习所需要的良好品德/品质](#互联网学习所需要的良好品德/品质)
   - [Minecraft的实用网站](#Minecraft的实用网站)
   - [进入正题，如何安装、运行Minecraft](#进入正题，如何安装、运行Minecraft)
-    - [运行Minecraft的必要条件：Java运行环境，启动器](#运行Minecraft的必要条件：Java运行环境，启动器)
+    - [Java运行环境：运行Minecraft的必要条件](#Java运行环境：运行Minecraft的必要条件)
     - [启动器：启动Minecraft的程序](#启动器：启动Minecraft的程序)
-    - [PCL下载](#PCL下载)
+    - [关于PCL](#关于PCL)
   
   - [正版？盗版？](#正版？盗版？)
   - [模组的安装](#模组的安装)
@@ -48,7 +48,7 @@ Enjoy your gaming time!
   - [如何加入服务器？](#如何加入服务器？)
   - [生电服务器玩家习惯法](#生电服务器玩家习惯法)
 
-- [如何进入我服](#如何进入我服)
+- [如何进入生电服](#如何进入生电服)
 
   - [Java的安装](#Java的安装)
     - [如何选择Java版本](#如何选择Java版本)
@@ -120,14 +120,15 @@ Enjoy your gaming time!
 - MC百科：[https://www.mcmod.cn/](https://www.mcmod.cn/)
   - 我的世界中文互联网上目前最大的模组（mod）下载论坛，包括下载，介绍，合成配方，教程等等。有实力的！  
 
-日后会补充  
+日后会补充
+
 从现在起，使用搜索引擎或者使用上面的网站搜索吧！
 
 <div align="right">(13247903)</div>
 
 ### 进入正题，如何安装、运行Minecraft
 
-#### 运行Minecraft的必要条件：Java运行环境，启动器
+#### Java运行环境：运行Minecraft的必要条件
 
 Java运行环境，即JRE（Java Runtime Environment）是我的世界运行的基础，我的世界是由Java语言编写的，自然也要有Java语言运行的环境，并且这门语言也在不断的更新迭代之中，不同的我的世界版本可能会使用不同版本的Java语言，自然也需要不同版本的Java运行环境。
 
@@ -155,24 +156,39 @@ Java运行环境，即JRE（Java Runtime Environment）是我的世界运行的�
 
 其实现在的主流我的世界启动器都支持游戏的本体下载，甚至支持模组下载，只需要安装启动器，就可以在启动器内安装游戏本体。你可能会问这种在第三方的启动器里下载的是正版还是盗版？可以移步[正版？盗版？](#正版？盗版？)这一部分阅读。
 
-目前主流的启动器有：  
+目前主流的启动器有：
+
 Minecraft官方启动器：我的世界Mojang工作室官方的启动器，不能说是十全十美吧，但也能称得上是史中之史，别TM用，支持下载游戏，但是使用的是国外的下载源，给你等成棍木了都不一定能下载完。可以在下载器里面换皮肤（详见[正版？盗版？](#正版？盗版？)），但是皮肤似乎也可以在Minecraft官网上更换上传，所以就连这最后的一点作用官方启动器也失去了......
 
-- HMCL：支持windows系统、macOS和Linux，十分强大
-- PCL：只支持Windows系统，十分强大  
+- HMCL：支持windows系统、macOS和Linux，十分强大：[https://hmcl.huangyuhui.net/download/](https://hmcl.huangyuhui.net/download/)
+- PCL：只支持Windows系统，十分强大：[https://afdian.com/p/0164034c016c11ebafcb52540025c377](https://afdian.com/p/0164034c016c11ebafcb52540025c377)
 
 <div align="right">(13247903)</div>
 
-- LauncherX：支持windows系统、macOS和Linux，非常美观，可以自动下载安装Java，自动下载安装模组等组件，甚至可以联机（但是似乎不稳定）  
-- BakaXL：支持windows系统、macOS和Linux，也非常美观  
+- LauncherX：支持windows系统、macOS和Linux，非常美观，可以自动下载安装Java，自动下载安装模组等组件，甚至可以联机（但是似乎不稳定）：[https://corona.studio/lx/download](https://corona.studio/lx/download)
+- BakaXL：支持windows系统、macOS和Linux，也非常美观：[https://www.bakaxl.com/](https://www.bakaxl.com/)
 
 <div align="right">(9DA62C42)</div>
 
-#### PCL下载
-PCL是由中国大佬**龙腾猫跃**（这个是真大佬）所编写的Minecraft启动器，在爱发电平台上发布，进入爱发电网站搜索PCL就能找到下载页面
+以下是一些手机上能够使用的Java版启动器，具体要怎么用我也不知道（部分介绍来自[知乎](https://zhuanlan.zhihu.com/p/720525792)），下面列出来仅供有需要的人参考，当然，是给安卓机用的，苹果几乎甭想了：
 
-此项目是捐款制，可以免费使用，也可以给作者点赞助。  
-在下载页面找不到免费下载链接？你该配眼镜了！
+- PojavLauncher：这是一个快速、便携且开源的手机Minecraft Java版启动器，支持多种下载方式。最重要的是，这是我目前找到的唯一一个支持IOS的Java启动器，光速打脸这一块：[https://pojavlauncher.net/](https://pojavlauncher.net/)
+
+- FCL：支持高版本（如1.17+），并且自带Java运行环境，适合需要运行最新版本的玩家。不过官网的下载页面貌似失效了，所以我给的是github的release页面，在页面中找到最新的版本，下载以`all.apk`结尾的安装包后安装即可：[https://github.com/FCL-Team/FoldCraftLauncher/releases/](https://github.com/FCL-Team/FoldCraftLauncher/releases/)
+- HMCL-PE：没想到吧HMCL也有手机版，但是该项目已于2025年7月8号归档不再更新，所以不建议使用，和FCL一样我只找到了github的release链接，点开后找到最新版下载apk文件即可：[https://github.com/HMCL-dev/HMCL-PE/releases](https://github.com/HMCL-dev/HMCL-PE/releases)
+- MCinaBox：一个免费、开源的Minecraft启动器，适用于安卓设备6。一样只有github release连接，而且最近一次更新release是21年（最后一次更新项目也是23年的事情了），疑似已经跑路，也不建议使用，一样地，找到apk文件后下载：[https://github.com/AOF-Dev/MCinaBox/releases](https://github.com/AOF-Dev/MCinaBox/releases)
+- Zalith Launcher：我自己在用的（如果没电脑的话），支持版本隔离和游戏路径管理，可以下载模组和安装整合包等功能，是我用得最顺手的手机启动器了。下面给出github连接，找到`ZalithLauncher-<版本号>.apk`下载：[https://github.com/ZalithLauncher/ZalithLauncher/releases](https://github.com/ZalithLauncher/ZalithLauncher/releases)
+- Zalith Launcher 2：我刚刚在搜上面那个的时候找到的项目，目前处于开发阶段，不过倒是有发Alpha版本的apk，我也不知道是什么，但不需要自己手动编译就能用下下来就能看何乐而不为呢，感兴趣的可以去看一下：[https://github.com/ZalithLauncher/ZalithLauncher2/releases/](https://github.com/ZalithLauncher/ZalithLauncher2/releases/)
+
+<div align="right">(Command_Gojira)</div>
+
+#### 关于PCL
+
+PCL是由中国大佬**龙腾猫跃**（这个是真大佬）所编写的Minecraft启动器，在[爱发电](https://afdian.com/a/LTCat)平台上发布
+
+此项目是捐款制，可以免费使用，也可以给作者点赞助.
+
+在[下载页面](https://afdian.com/p/0164034c016c11ebafcb52540025c377)找不到免费下载链接？你该配眼镜了！
 
 下载后运行，在上方栏 下载→正式版→选择你所需要的游戏版本下载
 
@@ -252,7 +268,7 @@ PCL是由中国大佬**龙腾猫跃**（这个是真大佬）所编写的Minecra
 其他的整合包有可能有例外，具体可以尝试找到该整合包的官方发布网站，看看如何安装，或者去MC百科查询。
 <div align="right">(13247903)</div>
 
-有关我服整合包的安装，请移步[启动器选择和整合包的安装](#启动器选择和整合包的安装)查看。
+有关生电服整合包的安装，请移步[启动器选择和整合包的安装](#启动器选择和整合包的安装)查看。
 <div align="right">(9DA62C42)</div>
 
 ### 光影、材质
@@ -341,7 +357,7 @@ PCL是由中国大佬**龙腾猫跃**（这个是真大佬）所编写的Minecra
 
 **拟建服务器：**  
 
-- **生电创造服：**：
+- **生电创造服**
 
   用于对生电服务器的大型建筑进行提前规划、建设、预览，创造模式，在服务器里建造的建筑会被在生电服中实装，此外该服务器不会也不应当有其他用途。
 
@@ -349,19 +365,8 @@ PCL是由中国大佬**龙腾猫跃**（这个是真大佬）所编写的Minecra
 
 ### 如何加入服务器？
 
-见[9DA62C42编写的教程](#如何进入我服)
+关于生电服详见[如何进入生电服](#如何进入生电服)
 
-补充如下：
-
-在校园中游玩服务器，强烈建议使用网线连接网络。淘宝4块就能买到一米长的，将电脑接入寝室网口，会有浏览器弹出认证窗口，只需要输入学生账号密码后认证即可使用有线连接连接服务器，使用有线连接的玩家请使用非内网穿透的IP连接服务器
-
-有线连接的好处是可以做到0延迟，十分稳定，但是只有在学校寝室等有网线插口的地方使用，并且女生寝室D1竟然并不支持有线连接！
-
-（是认为我们女玩家不会使用有线网络吗，哈基蚁你赢了......）
-
-所以人在D1楼层的玩家以及不在校内的无法使用有线连接的玩家，可以选择使用内网穿透连接，只需要使用内网穿透IP连接，无需网线，但是内网穿透无法承受过多的人数。
-
-所以强烈建议有能力使用有线连接就要使用有线连接！避免挤占内网穿透的带宽！
 <div align="right">(13247903)</div>
 
 ### 生电服务器玩家习惯法
@@ -388,36 +393,50 @@ PCL是由中国大佬**龙腾猫跃**（这个是真大佬）所编写的Minecra
 
 ---
 
-## 如何进入我服
+## 如何进入生电服
 
 ### Java的安装
 
 #### 如何选择Java版本
 
-在Java官网得到的安装包版本最高只有8，如需JDK24，JDK21，需要移步oracle→产品→Java并选择你需要的Java版本。
-
 如果你需要使用本服务器的生电整合包，推荐Java17。
+
+具体的下载及安装详见：[Java运行环境：运行Minecraft的必要条件](#Java运行环境：运行Minecraft的必要条件)
+
 <div align="right">(9DA62C42)</div>
 
 #### 对于LauncherX启动器
 
-如果你要使用生电整合包，那么不建议使用LauncherX启动器。
+如果你要使用群里的生电整合包，那么不建议使用LauncherX启动器，以及手机版的启动器。
 
-使用LauncherX启动器可以大大简化Java安装难度。打开软件→设置→Java虚拟机设定→下载Java→选择合适的版本。
+不过使用LauncherX启动器可以大大简化Java安装难度。打开软件→设置→Java虚拟机设定→下载Java→选择合适的版本。
 <div align="right">(9DA62C42)</div>
 
 ### 我服基本信息
 
 #### 版本等基本信息
-版本：1.20.1，模式：纯净生存。
+
+版本：1.20.1，模式：纯净生存，种子：-4521996048908594979
 <div align="right">(9DA62C42)</div>
 
 #### 连接方式
 
-使用网线连接校园网后在游戏内添加服务器[IP隐藏]，或者直接使用连接[IP隐藏]。前者只有在学校内使用校园网才行。
+使用网线连接校园网后在游戏内添加局域网IP，或者连接内网穿透IP。前者只有在学校内使用校园网才行。
 
 ip地址请移步我服QQ群群公告中查看。
 <div align="right">(9DA62C42)</div>
+
+在校园中游玩服务器，强烈建议使用网线连接网络。淘宝4块就能买到一米长的，将电脑接入寝室网口，会有浏览器弹出认证窗口，只需要输入学生账号密码后认证即可使用有线连接连接服务器，使用有线连接的玩家请使用非内网穿透的IP连接服务器
+
+有线连接的好处是可以做到0延迟，十分稳定，但是只有在学校寝室等有网线插口的地方使用，并且女生寝室D1竟然并不支持有线连接！
+
+（是认为我们女玩家不会使用有线网络吗，哈基蚁你赢了......）
+
+所以人在D1楼层的玩家以及不在校内的无法使用有线连接的玩家，可以选择使用内网穿透连接，只需要使用内网穿透IP连接，无需网线，但是内网穿透无法承受过多的人数。
+
+所以强烈建议有能力使用有线连接就要使用有线连接！避免挤占内网穿透的带宽！
+
+<div align="right">(13247903)</div>
 
 ### 启动器选择和整合包的安装
 
@@ -429,17 +448,21 @@ ip地址请移步我服QQ群群公告中查看。
 <div align="right">(9DA62C42)</div>
 
 #### 整合包在哪里？
+
 整合包在群文件里，搜索1.20.1，下载“1.20.1生电整合包.zip”，并且记录下载位置，之后有用。
 <div align="right">(9DA62C42)</div>
 
 #### HMCL
+
 把下载的HMCL主体放在硬盘某个空白文件夹中，双击运行。  
 如何安装整合包：打开软件→左侧选择“版本列表”→安装整合包→导入本地整合包文件→找到整合包文件并安装。
+
 <div align="right">(9DA62C42)</div>
 
 #### PCL2
 把下载的PCL2主体放在硬盘某个空白文件夹中，双击运行。  
 如何安装整合包：打开软件→下载→整合包→安装已有整合包→找到整合包文件并安装。
+
 <div align="right">(9DA62C42)</div>
 
 ---
@@ -511,7 +534,7 @@ ip地址请移步我服QQ群群公告中查看。
 
 #### 屏幕上会显示背包内容
 
-此现象是物品栏HUD+导致，按"I"可以关闭。此模组的按键绑定可以在选项→按键控制→按键绑定→Inventory HUD+中修改。
+此现象是物品栏HUD+导致，按"I"可以关闭，或者按"O"对其位置大小之类的进行修改。此模组的按键绑定可以在选项→按键控制→按键绑定→Inventory HUD+中修改。
 <div align="right">(9DA62C42)</div>
 
 #### 飞行有问题
@@ -523,7 +546,8 @@ ip地址请移步我服QQ群群公告中查看。
 
 ## 跋（其实就是后记，为了装逼我写跋这么个古代用词）
 
-如果你已经看完了本篇文章，说明你已经初步具备了一些知识，接下来打开游戏开冲！  
+如果你已经看完了本篇文章，说明你已经初步具备了一些知识，接下来打开游戏开冲！
+
 记得把群推广给更多对我的世界感兴趣的同学，尤其是女同学，群里现在男女比例已经是地狱了，在这样下去群里就要变成美国监狱浴室了（悲）
 
 <div align="right">(13247903)</div>
