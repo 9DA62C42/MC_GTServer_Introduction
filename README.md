@@ -1,4 +1,5 @@
 # Minecraft游戏入门&GTIIT服务器介绍
+[![Build Docs(Pandoc)](https://github.com/9DA62C42/MC_GTServer_Introduction/actions/workflows/render-pandoc.yml/badge.svg)](https://github.com/9DA62C42/MC_GTServer_Introduction/actions/workflows/render-pandoc.yml)
 
 Last Edited Time: 2025-08-06-17-00
 
@@ -13,3 +14,33 @@ Last Edited Time: 2025-08-06-17-00
 (4)上传文件、删除文件、修改文件类比上述要求。
 
 (5)如果有恶意修改的行为，屡次不改将不再同意PR请求。
+
+## 渲染markdown文件
+通过`pandoc`将markdown渲染成PDF或latex源文件。
+
+### 安装依赖
+
+首先安装系统依赖（以下命令适用Ubuntu）
+```bash
+sudo apt-get install -y coreutils grep curl gzip tar perl pandoc fonts-firacode fonts-noto-core fonts-noto-extra fonts-noto-color-emoji fonts-noto-mono fonts-noto-cjk fonts-noto-cjk-extra
+```
+
+按照[TexLive快速安装指南](https://tug.org/texlive/quickinstall.html)指引安装TexLive。运行如下命令安装所需要的TeX包
+```bash
+tlmgr install xetex amsfonts amsmath lm unicode-math iftex listings fancyvrb tools booktabs multirow graphics bookmark xcolor soul  geometry setspace babel xecjk framed fontspec bidi mathspec upquote microtype csquotes natbib biblatex bibtex biber upquote parskip xurl footnotehyper mdwtools
+```
+
+### 渲染文件至PDF
+运行如下命令渲染：
+```bash
+pandoc --defaults ./scripts/pandoc-opts.yml
+```
+输出文件为`pdf/Minecraft游戏入门&GTIIT服务器介绍.pdf`
+
+### (可选)渲染latex源文件
+运行如下命令将markdown渲染为latex源文件:
+
+```bash
+pandoc --defaults ./scripts/pandoc-opt.yml -s -t tex -o $FILENAME
+```
+将`$FILENAME`替换为将要写入的latex源文件的的路径。
