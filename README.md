@@ -1,5 +1,5 @@
 # Minecraft游戏入门&GTIIT服务器介绍
-[![Build Docs(Pandoc)](https://github.com/juicyenc/gtmc-intro-doc/actions/workflows/render-pandoc.yml/badge.svg?branch=main)](https://github.com/juicyenc/gtmc-intro-doc/actions/workflows/render-pandoc.yml)
+[![Build Docs(Pandoc)](https://github.com/9DA62C42/MC_GTServer_Introduction/actions/workflows/render-pandoc.yml/badge.svg)](https://github.com/9DA62C42/MC_GTServer_Introduction/actions/workflows/render-pandoc.yml)
 
 Last Edited Time: 2025-08-06-17-00
 
